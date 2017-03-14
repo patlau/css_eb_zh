@@ -1,0 +1,22 @@
+{
+  "name": "css_eb_zh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patlau/css_eb_zh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patlau/css_eb_zh/issues"
+  },
+  "homepage": "https://github.com/patlau/css_eb_zh#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}

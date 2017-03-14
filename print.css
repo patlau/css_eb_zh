@@ -1,0 +1,8 @@
+@media print {
+    .sidenav {
+        display: none;
+    }
+    .sitenav {
+        display: none;
+    }
+}
