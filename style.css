@@ -36,6 +36,7 @@ header, footer {
     background-color: #587231;
     background: linear-gradient(to right, #587231 , #88B04B);
     padding: 5px;
+    width: 100%;
 }
 
 header h1 {
@@ -48,6 +49,7 @@ header h1 {
 
 header a {
     text-decoration: none;
+    color: white;
 }
 
 main {
@@ -68,34 +70,37 @@ a:hover {
     color: black;
 }
 
-/*
-nav ul {
-    display: block;
-    padding: 0px;
-    margin: 0px;
+nav {
+    width: 100%;
+    margin: 0px 0px;
 }
-
-nav li {
-    display: inline;
-}
-*/
 
 nav a {
-    display: inline-block;
+    display: block;
     color: #587231;
     text-decoration: none;
-    width: 100px;
     font-weight: 400;
     padding: 5px;
 }
 
 nav a:hover {
-    background-color: #587231;
+    background-color: #88B04B;
     color: white;
+    margin-bottom: -2px solid #88B04B;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    border-bottom: 2px solid #587231;
+    margin-top: 1px;
+    font-size: 0px;
 }
 
 nav li {
     list-style-type: none;
+    font-size: 1rem;
 }
 
 .copyright {
@@ -105,4 +110,48 @@ nav li {
 
 figcaption {
     font-size: 0.6rem;
+}
+
+img {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.article-one {
+    margin: 10px;
+}
+
+.active {
+    background-color: #587231;
+    color: white;
+}
+
+@media screen and (min-width : 601px) {
+    body {
+        background-color: #BACCDA;
+    }
+    header a {
+        color: #BACCDA;
+    }
+    nav li {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 981px) {
+    body {
+        background-color: #dc6a9c;
+    }
+    header a {
+        color: #dc6a9c;
+    }
+    main {
+        width: 981px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
