@@ -9,19 +9,29 @@
     <link rel="stylesheet" href="print.css" media="print">
 </head>
 <body>
-    <div id="container">
+
         <header>
-            <h1><a href="index.html">Patlau</a></h1>
+            <div class="container">
+                <h1><a href="index.html">Patlau</a></h1>
+                <div class="menubutton"><a href="">MENU</a></div>
+            </div>
         </header>
         <nav class="sitenav">
-            <ul>
-                <li><a class="active" href="">Startseite</a></li><!--
-             --><li><a href="projekte">Projekte</a></li>
-                <li><a href="ueber-mich">Über mich</a></li>
-                <li><a href="kontakt">Kontakt</a></li>
-            </ul>
+            <div class="container">
+                <div class="nav-header"></div>
+                <ul>
+                    <li><a class="active" href="">Startseite</a></li><!--
+                 --><li><a href="projekte">Projekte</a></li>
+                    <li><a href="ueber-mich">Über mich</a></li>
+                    <li><a href="kontakt">Kontakt</a></li>
+                </ul>
+            </div>
         </nav>
         <main role="main">
+            <div class="container">
+            <div id="aktion">
+                <img src="icon_new.png">
+            </div>
                 <section>
                     <h1>Sektion</h1>
                     <article>
@@ -43,10 +53,14 @@
                         </ul>
                     </aside>
                 </section>
+            </div>
         </main>
         <footer>
+            <div class="container">
              <p class="copyright">© 2017 by patlau | Made by hand in Switzerland</p>
+            </div>
         </footer>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

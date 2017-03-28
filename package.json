@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/patlau/css_eb_zh#readme",
   "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "gh-pages": "^0.12.0",
+    "node-sass": "^4.5.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
